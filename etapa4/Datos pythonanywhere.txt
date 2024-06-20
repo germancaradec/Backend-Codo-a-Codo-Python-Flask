@@ -1,0 +1,53 @@
+Python anywhere:
+Web - Add a new web app
+
+path 
+/home/germancaradec/mysite/flask_app.py
+
+Creamos un directorio.
+Files - mysite - Enter new directori name
+Creamos static y dentro imagenes
+Guardamos esta ruta(agregando la barra)
+/home/germancaradec/mysite/static/imagenes/
+
+Creamos la base de datos:
+contraseña: german2024
+(Primero nos guardanmos los datos de la base)
+
+Database host address: germancaradec.mysql.pythonanywhere-services.com
+
+Username: germancaradec
+
+Para crear la base de datos sirvió primero pass y despues nombre de la base. 
+
+contraseña de base: root123456
+Set mysql password
+Database name: miapp
+
+Al dar create, el nombre cambia: 
+germancaradec$miapp
+o
+germancaradec$default
+
+
+Vamos al archivo de python, desconectamos el server local.
+Reemplazamos: 
+ 
+host='germancaradec.mysql.pythonanywhere-services.com',
+user='germancaradec', 
+password='root123456',
+database='germancaradec$miapp'
+
+Ahora cambiamos la ruta destino de imagenes
+
+Listo del lado del back. Copiamos todo y reemplazamos el contenido del archivo de flask de pythonanywhere. 
+Files - mysite - flask_app.py
+
+Actualizamos con flechitas. 
+Menu - Web - Reload - germancaradec.pythonanywhere.com
+
+
+
+
+
+
